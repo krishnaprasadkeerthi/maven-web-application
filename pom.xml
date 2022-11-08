@@ -29,6 +29,20 @@
 
 	</properties>
 
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <url>http://13.126.249.215:8081/kpdevops/repository/kpdevops1-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexusRepo</id>
+	      <url>http://13.126.249.215:8081/kpdevops/repository/kpdevops1-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+	
 	<dependencies>
 		
 		<dependency>
@@ -94,19 +108,6 @@
 -->		
 	</dependencies>
 	
-	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <url>http://13.126.249.215:8081/kpdevops/repository/kpdevops1-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexusRepo</id>
-	      <url>http://13.126.249.215:8081/kpdevops/repository/kpdevops1-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
