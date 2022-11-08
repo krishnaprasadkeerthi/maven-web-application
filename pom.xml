@@ -98,13 +98,11 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Nexus Repository</name>
 	      <url>http://13.126.249.215:8081/kpdevops/repository/kpdevops1-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexusRepo</id>
-	      <name> Nexus Repository </name>
 	      <url>http://13.126.249.215:8081/kpdevops/repository/kpdevops1-snapshot/</url>
 	    </snapshotRepository>
 	    
