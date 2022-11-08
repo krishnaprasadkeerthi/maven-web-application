@@ -32,12 +32,12 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
+	      <id>nexus-release</id>
 	      <url>http://13.126.249.215:8081/kpdevops/repository/kpdevops1-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexusRepo</id>
+	      <id>nexus-snapshots</id>
 	      <url>http://13.126.249.215:8081/kpdevops/repository/kpdevops1-snapshot/</url>
 	    </snapshotRepository>
 	    
